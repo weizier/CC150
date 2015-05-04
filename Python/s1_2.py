@@ -52,4 +52,6 @@ def s5():
 
 def s6(s):
 	if s != '':
-		return s[-1]+s6(s[])
+		return s[-1]+s6(s[:-1])
+	else:
+		return ''
